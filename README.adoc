@@ -8,6 +8,8 @@ cn.caizhaoke.getAvailablePayList包：核心功能代码，利用ForkJoinTask实
 TestMain.java：测试类，主要是通过一个随机生成的测试用户支付方式列表，然后通过.getAvailablePayList并发调用outPayService下
 的服务判断各个支付方式是否可用，并返回结果！
 
+maven：需要使用maven下载少部分的依赖！！！
+
 //TODO: 时间上待继续完善
 1、更加详细的单元测试形式
 2、详细的测试结果，以及吧与其他种方式实现的结果
