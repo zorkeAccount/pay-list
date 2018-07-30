@@ -1,0 +1,14 @@
+工程：根据用户支付方式列表（余额、红包、优惠券，代金券等），实时调用远程服务获取每种支付方式的可用性
+
+cn.caizhaoke.outPayService包：简单地模拟提供支付方式是否可用的一个远程服务功能（且假设网络开销10ms），随机生成是否可用！
+//时间充裕的话，该包应该独立写成一个小服务被http/rpc请求最好不过了（代码已传到github上，后续继续晚上该作业！）
+
+cn.caizhaoke.getAvailablePayList包：核心功能代码，利用ForkJoinTask实现并发多线程请求远程调用服务
+
+TestMain.java：测试类，主要是通过一个随机生成的测试用户支付方式列表，然后通过.getAvailablePayList并发调用outPayService下
+的服务判断各个支付方式是否可用，并返回结果！
+
+//TODO: 时间上待继续完善
+1、更加详细的单元测试形式
+2、详细的测试结果，以及吧与其他种方式实现的结果
+3、使用spring的bean管理，而非new
