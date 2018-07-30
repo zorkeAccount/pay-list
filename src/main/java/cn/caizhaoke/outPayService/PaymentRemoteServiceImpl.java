@@ -1,7 +1,5 @@
 package cn.caizhaoke.outPayService;
 
-import cn.caizhaoke.outPayService.ConsultResult;
-import cn.caizhaoke.outPayService.PaymentRemoteService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

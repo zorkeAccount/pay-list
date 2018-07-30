@@ -1,7 +1,5 @@
 package cn.caizhaoke.outPayService;
 
-import cn.caizhaoke.outPayService.ConsultResult;
-
 /**
  * @author zhaoke_cai@163.com
  * @date 2018/7/30
