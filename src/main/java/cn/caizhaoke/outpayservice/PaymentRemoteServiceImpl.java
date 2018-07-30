@@ -1,4 +1,4 @@
-package cn.caizhaoke.outPayService;
+package cn.caizhaoke.outpayservice;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -17,7 +17,7 @@ public class PaymentRemoteServiceImpl implements PaymentRemoteService {
     public ConsultResult isEnabled(String paymentType) {
         Boolean isEnable = new Random().nextBoolean();
         if (isEnable) {
-            log.info(paymentType + "支付调用成功！");
+//            log.info(paymentType + "支付调用成功！");
             return new ConsultResult(isEnable, null);
         }
         try {
@@ -27,7 +27,7 @@ public class PaymentRemoteServiceImpl implements PaymentRemoteService {
             e.printStackTrace();
         }
 
-        log.info(paymentType + "支付调用失败！");
+//        log.info(paymentType + "支付调用失败！");
         return new ConsultResult(isEnable, paymentType + "支付调用失败，返回错误！");
     }
 }

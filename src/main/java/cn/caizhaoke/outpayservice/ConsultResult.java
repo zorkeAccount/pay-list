@@ -1,4 +1,4 @@
-package cn.caizhaoke.outPayService;
+package cn.caizhaoke.outpayservice;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

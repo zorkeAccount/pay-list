@@ -1,4 +1,4 @@
-package cn.caizhaoke.getAvailablePayList;
+package cn.caizhaoke.getavailablepaylist;
 
 import lombok.Data;
 

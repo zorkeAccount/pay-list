@@ -1,7 +1,7 @@
 package cn.caizhaoke;
 
-import cn.caizhaoke.getAvailablePayList.PayServiceObject;
-import cn.caizhaoke.getAvailablePayList.SubTask;
+import cn.caizhaoke.getavailablepaylist.PayServiceObject;
+import cn.caizhaoke.getavailablepaylist.SubTask;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 

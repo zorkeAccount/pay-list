@@ -1,6 +1,6 @@
-package cn.caizhaoke.getAvailablePayList;
+package cn.caizhaoke.getavailablepaylist;
 
-import cn.caizhaoke.outPayService.PaymentRemoteServiceImpl;
+import cn.caizhaoke.outpayservice.PaymentRemoteServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
